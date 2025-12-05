@@ -542,13 +542,3 @@ export default function ProductEditorPage() {
     </div>
   );
 }
-
-// ★これを一番下に追加してください
-export async function generateStaticParams() {
-  return [
-    { id: 'tshirt' },
-    { id: 'tote' },
-    { id: 'acsta' },
-    { id: 'badge' },
-  ];
-}
